@@ -7,6 +7,6 @@
 
 ### In order to run the backend
 - create .env file in the backend directory and add:
-  - DATABASE_URL = mongodb+srv://intirior:9YjsaWJtZ05zuigC@cluster0.5sx26.mongodb.net/
+  - DATABASE_URL = mongodb+srv://username:password@cluster0.5sx26.mongodb.net/
 - cd backend
 - node index.js
