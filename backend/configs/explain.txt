@@ -1,2 +1,5 @@
 include files with configuration parameters.
 for example: database credentials, general configuration, etc...
+
+# url to connect to the mongodb server:
+mongodb+srv://username:<password>@cluster0.5sx26.mongodb.net/
