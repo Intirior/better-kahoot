@@ -1,11 +1,12 @@
-import './App.css'
+import GamesPage from "./components/GamesPage";
+import "./App.css";
 
 function App() {
   return (
     <>
-     <h1>hello</h1>
+      <GamesPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

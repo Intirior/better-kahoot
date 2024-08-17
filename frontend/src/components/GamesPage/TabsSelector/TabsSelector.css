@@ -1,0 +1,28 @@
+.tabs-selector > ul {
+    display: flex;
+    padding-left: 0%;
+}
+
+.tabs-selector > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    border-style: solid;
+    text-align: center;
+    min-width: 150px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tabs-selector > ul > li:hover {
+    background-color: rgba(128, 0, 128, 0.3);
+}
+
+.tabs-selector > ul > li:first-of-type {
+    border-top-left-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+}
+
+.tabs-selector > ul > li:last-of-type {
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+}
